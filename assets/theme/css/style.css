@@ -1,6 +1,6 @@
 @charset "UTF-8";
 section {
-  background-color: #e7e7e7c0;
+  background-color: #ffffff;
 }
 
 body {
@@ -138,7 +138,7 @@ section .mbr-background-video-preview {
 }
 
 .mbr-bg-white {
-  background-color: #b1b1b1;
+  background-color: #ffffff;
 }
 
 .mbr-bg-black {
@@ -388,12 +388,13 @@ nav .mbr-section-btn {
 }
 
 .mbr-arrow-up a {
-  background: rgba(138, 203, 255, 0.774);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   color: #fff;
   display: inline-block;
   height: 60px;
   width: 60px;
+  border: 2px solid #fff;
   outline-style: none !important;
   position: relative;
   text-decoration: none;
@@ -402,7 +403,7 @@ nav .mbr-section-btn {
   text-align: center;
 }
 .mbr-arrow-up a:hover {
-  background-color: rgba(247, 247, 247, 0.945);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .mbr-arrow-up a i {
   line-height: 60px;
@@ -414,7 +415,7 @@ nav .mbr-section-btn {
 }
 
 .mbr-arrow-up-icon::before {
-  content: "›>";
+  content: "›";
   display: inline-block;
   font-family: serif;
   font-size: 22px;
